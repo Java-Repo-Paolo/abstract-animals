@@ -1,4 +1,4 @@
-package org.lessons.java;
+package org.lessons.java.animal;
 
 public class Dolphin extends Animal implements CanSwim {
     public Dolphin(String name) {
@@ -18,6 +18,6 @@ public class Dolphin extends Animal implements CanSwim {
 
     @Override
     public void swim() {
-        System.out.println("I'm a dolphin! I'm swimming");
+        System.out.println("I'm a dolphin! I'm swimming!");
     }
 }

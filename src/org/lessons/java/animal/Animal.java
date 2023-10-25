@@ -1,4 +1,4 @@
-package org.lessons.java;
+package org.lessons.java.animal;
 
 public abstract class Animal {
         private String name;

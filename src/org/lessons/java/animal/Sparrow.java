@@ -1,4 +1,4 @@
-package org.lessons.java;
+package org.lessons.java.animal;
 
 public class Sparrow extends Animal implements CanFly {
     public Sparrow(String name) {

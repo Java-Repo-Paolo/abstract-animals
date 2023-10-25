@@ -1,4 +1,4 @@
-package org.lessons.java;
+package org.lessons.java.animal;
 
 public class Dog extends Animal implements CanSwim{
     public Dog(String name) {
