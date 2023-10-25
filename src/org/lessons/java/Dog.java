@@ -1,6 +1,6 @@
 package org.lessons.java;
 
-public class Dog extends Animal{
+public class Dog extends Animal implements CanSwim{
     public Dog(String name) {
         super(name);
     }
@@ -13,5 +13,10 @@ public class Dog extends Animal{
     @Override
     public void call() {
         System.out.println("Bau Bau");
+    }
+
+    @Override
+    public void swim() {
+        System.out.println("i'm a dog! I can swim!");
     }
 }
