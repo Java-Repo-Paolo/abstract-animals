@@ -9,8 +9,6 @@ public class Creator {
                 return new DVDelayer();
             case "playstation":
                 return new Playstation();
-            case "switch":
-
             default:
                 throw new IllegalArgumentException("Invalid type");
         }
